@@ -71,7 +71,6 @@ def all_holidays_with_bbq(holiday_hash)
       if item == "BBQ"
         holiday
       end
-    }
+    }.flatten
   }
-  
 end
