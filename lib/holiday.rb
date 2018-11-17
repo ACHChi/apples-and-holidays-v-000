@@ -69,7 +69,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.collect{|season, holiday|
     holiday.collect{|holiday, item|
       if item == "BBQ"
-        holiday
+        retuen holiday
       end
     }.flatten
   }
