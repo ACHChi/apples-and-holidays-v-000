@@ -69,5 +69,6 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash[:season][:holiday].each{|holiday, item|
     if item == "BBQ"
       holiday
+    end
   }
 end
